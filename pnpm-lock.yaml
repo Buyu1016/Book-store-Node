@@ -1,0 +1,331 @@
+dependencies:
+  axios: 0.21.1
+  cheerio: registry.nlark.com/cheerio/1.0.0-rc.10
+  mysql2: registry.nlark.com/mysql2/2.2.5
+  sequelize: registry.nlark.com/sequelize/6.6.2_mysql2@2.2.5
+lockfileVersion: 5.2
+packages:
+  /axios/0.21.1:
+    dependencies:
+      follow-redirects: registry.nlark.com/follow-redirects/1.14.1
+    dev: false
+    resolution:
+      integrity: sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+      tarball: axios/download/axios-0.21.1.tgz?cache=0&sync_timestamp=1616074229990&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz
+  /boolbase/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+      tarball: boolbase/download/boolbase-1.0.0.tgz
+  /domelementtype/2.2.0:
+    dev: false
+    resolution:
+      integrity: sha1-mgtsJ4LtahxzI9QiZxg9+b2LHVc=
+      tarball: domelementtype/download/domelementtype-2.2.0.tgz
+  /domhandler/4.2.0:
+    dependencies:
+      domelementtype: 2.2.0
+    dev: false
+    engines:
+      node: '>= 4'
+    resolution:
+      integrity: sha1-+XaKXwNL5gqJonwuTQ9066DYsFk=
+      tarball: domhandler/download/domhandler-4.2.0.tgz?cache=0&sync_timestamp=1618564119955&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdomhandler%2Fdownload%2Fdomhandler-4.2.0.tgz
+  /entities/2.2.0:
+    dev: false
+    resolution:
+      integrity: sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
+      tarball: entities/download/entities-2.2.0.tgz
+  /htmlparser2/6.1.0:
+    dependencies:
+      domelementtype: 2.2.0
+      domhandler: 4.2.0
+      domutils: registry.nlark.com/domutils/2.7.0
+      entities: 2.2.0
+    dev: false
+    resolution:
+      integrity: sha1-xNditsM3GgXb5l6UrkOp+EX7j7c=
+      tarball: htmlparser2/download/htmlparser2-6.1.0.tgz
+  /is-property/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-V/4cTkhHTt1lsJkR8msc1Ald2oQ=
+      tarball: is-property/download/is-property-1.0.2.tgz
+  /lru-cache/4.1.5:
+    dependencies:
+      pseudomap: 1.0.2
+      yallist: 2.1.2
+    dev: false
+    resolution:
+      integrity: sha1-i75Q6oW+1ZvJ4z3KuCNe6bz0Q80=
+      tarball: lru-cache/download/lru-cache-4.1.5.tgz
+  /lru-cache/6.0.0:
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
+      tarball: lru-cache/download/lru-cache-6.0.0.tgz
+  /nth-check/2.0.0:
+    dependencies:
+      boolbase: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha1-G7T22scAcvwxPoyc0UF7UHTAoSU=
+      tarball: nth-check/download/nth-check-2.0.0.tgz
+  /parse5-htmlparser2-tree-adapter/6.0.1:
+    dependencies:
+      parse5: 6.0.1
+    dev: false
+    resolution:
+      integrity: sha1-LN+a2CMyEUA3DU2/XT6Sx8jdxuY=
+      tarball: parse5-htmlparser2-tree-adapter/download/parse5-htmlparser2-tree-adapter-6.0.1.tgz
+  /parse5/6.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws=
+      tarball: parse5/download/parse5-6.0.1.tgz
+  /pseudomap/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
+      tarball: pseudomap/download/pseudomap-1.0.2.tgz
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+      tarball: safer-buffer/download/safer-buffer-2.1.2.tgz
+  /sqlstring/2.3.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-za5xaTiaE3WxjohfLmCz5GCAlRQ=
+      tarball: sqlstring/download/sqlstring-2.3.2.tgz
+  /yallist/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+      tarball: yallist/download/yallist-2.1.2.tgz
+  /yallist/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
+      tarball: yallist/download/yallist-4.0.0.tgz
+  registry.nlark.com/cheerio-select/1.5.0:
+    dependencies:
+      css-select: registry.nlark.com/css-select/4.1.3
+      css-what: registry.nlark.com/css-what/5.0.1
+      domelementtype: 2.2.0
+      domhandler: 4.2.0
+      domutils: registry.nlark.com/domutils/2.7.0
+    dev: false
+    name: cheerio-select
+    resolution:
+      integrity: sha1-+vPa6zGxfF4anavO4oiq+Kr6WCM=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/cheerio-select/download/cheerio-select-1.5.0.tgz
+    version: 1.5.0
+  registry.nlark.com/cheerio/1.0.0-rc.10:
+    dependencies:
+      cheerio-select: registry.nlark.com/cheerio-select/1.5.0
+      dom-serializer: registry.nlark.com/dom-serializer/1.3.2
+      domhandler: 4.2.0
+      htmlparser2: 6.1.0
+      parse5: 6.0.1
+      parse5-htmlparser2-tree-adapter: 6.0.1
+      tslib: registry.nlark.com/tslib/2.3.0
+    dev: false
+    engines:
+      node: '>= 6'
+    name: cheerio
+    resolution:
+      integrity: sha1-K6Pc38wm55VvwfRA5h1RxkM3nz4=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/cheerio/download/cheerio-1.0.0-rc.10.tgz
+    version: 1.0.0-rc.10
+  registry.nlark.com/css-select/4.1.3:
+    dependencies:
+      boolbase: 1.0.0
+      css-what: registry.nlark.com/css-what/5.0.1
+      domhandler: 4.2.0
+      domutils: registry.nlark.com/domutils/2.7.0
+      nth-check: 2.0.0
+    dev: false
+    name: css-select
+    resolution:
+      integrity: sha1-pwRA9wMX8maRGK10/xBeZYSccGc=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/css-select/download/css-select-4.1.3.tgz
+    version: 4.1.3
+  registry.nlark.com/css-what/5.0.1:
+    dev: false
+    engines:
+      node: '>= 6'
+    name: css-what
+    resolution:
+      integrity: sha1-PvqCATH0ZpqKwkCPnDLnx96fTK0=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/css-what/download/css-what-5.0.1.tgz
+    version: 5.0.1
+  registry.nlark.com/denque/1.5.0:
+    dev: false
+    engines:
+      node: '>=0.10'
+    name: denque
+    resolution:
+      integrity: sha1-dz3gaG/y2Owv+SkUMWpHtzscc94=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/denque/download/denque-1.5.0.tgz
+    version: 1.5.0
+  registry.nlark.com/dom-serializer/1.3.2:
+    dependencies:
+      domelementtype: 2.2.0
+      domhandler: 4.2.0
+      entities: 2.2.0
+    dev: false
+    name: dom-serializer
+    resolution:
+      integrity: sha1-YgZDfTLO767HFhgDIwx6ILwbTZE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/dom-serializer/download/dom-serializer-1.3.2.tgz
+    version: 1.3.2
+  registry.nlark.com/domutils/2.7.0:
+    dependencies:
+      dom-serializer: registry.nlark.com/dom-serializer/1.3.2
+      domelementtype: 2.2.0
+      domhandler: 4.2.0
+    dev: false
+    name: domutils
+    resolution:
+      integrity: sha1-jrrwxB66/PVbC3LsMcVjI3EsVEI=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/domutils/download/domutils-2.7.0.tgz
+    version: 2.7.0
+  registry.nlark.com/follow-redirects/1.14.1:
+    dev: false
+    engines:
+      node: '>=4.0'
+    name: follow-redirects
+    resolution:
+      integrity: sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.1.tgz
+    version: 1.14.1
+  registry.nlark.com/generate-function/2.3.1:
+    dependencies:
+      is-property: 1.0.2
+    dev: false
+    name: generate-function
+    resolution:
+      integrity: sha1-8GlhdpDBDIaOc7hGV0Z2T5fDR58=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/generate-function/download/generate-function-2.3.1.tgz
+    version: 2.3.1
+  registry.nlark.com/iconv-lite/0.6.3:
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: iconv-lite
+    resolution:
+      integrity: sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/iconv-lite/download/iconv-lite-0.6.3.tgz
+    version: 0.6.3
+  registry.nlark.com/long/4.0.0:
+    dev: false
+    name: long
+    resolution:
+      integrity: sha1-mntxz7fTYaGU6lVSQckvdGjVvyg=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/long/download/long-4.0.0.tgz
+    version: 4.0.0
+  registry.nlark.com/mysql2/2.2.5:
+    dependencies:
+      denque: registry.nlark.com/denque/1.5.0
+      generate-function: registry.nlark.com/generate-function/2.3.1
+      iconv-lite: registry.nlark.com/iconv-lite/0.6.3
+      long: registry.nlark.com/long/4.0.0
+      lru-cache: 6.0.0
+      named-placeholders: registry.nlark.com/named-placeholders/1.1.2
+      seq-queue: registry.nlark.com/seq-queue/0.0.5
+      sqlstring: 2.3.2
+    dev: false
+    engines:
+      node: '>= 8.0'
+    name: mysql2
+    resolution:
+      integrity: sha1-cmJP+0gW+A+Wucl/7djACTX580A=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/mysql2/download/mysql2-2.2.5.tgz
+    version: 2.2.5
+  registry.nlark.com/named-placeholders/1.1.2:
+    dependencies:
+      lru-cache: 4.1.5
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    name: named-placeholders
+    resolution:
+      integrity: sha1-zrH7/1C2szSStc8hTM9eOc7z0Og=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/named-placeholders/download/named-placeholders-1.1.2.tgz
+    version: 1.1.2
+  registry.nlark.com/seq-queue/0.0.5:
+    dev: false
+    name: seq-queue
+    resolution:
+      integrity: sha1-1WgS4cAXpuTnw+Ojeh2m143TyT4=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/seq-queue/download/seq-queue-0.0.5.tgz
+    version: 0.0.5
+  registry.nlark.com/sequelize/6.6.2_mysql2@2.2.5:
+    dependencies:
+      mysql2: registry.nlark.com/mysql2/2.2.5
+    dev: false
+    engines:
+      node: '>=10.0.0'
+    id: registry.nlark.com/sequelize/6.6.2
+    name: sequelize
+    peerDependencies:
+      mariadb: '*'
+      mysql2: '*'
+      pg: '*'
+      pg-hstore: '*'
+      sqlite3: '*'
+      tedious: '*'
+    peerDependenciesMeta:
+      mariadb:
+        optional: true
+      mysql2:
+        optional: true
+      pg:
+        optional: true
+      pg-hstore:
+        optional: true
+      sqlite3:
+        optional: true
+      tedious:
+        optional: true
+    resolution:
+      integrity: sha1-NoGwpK6xBuMQedOlN9iFQgUdqy4=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/sequelize/download/sequelize-6.6.2.tgz
+    version: 6.6.2
+  registry.nlark.com/tslib/2.3.0:
+    dev: false
+    name: tslib
+    resolution:
+      integrity: sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/tslib/download/tslib-2.3.0.tgz
+    version: 2.3.0
+specifiers:
+  axios: ^0.21.1
+  cheerio: ^1.0.0-rc.10
+  mysql2: ^2.2.5
+  sequelize: ^6.6.2
